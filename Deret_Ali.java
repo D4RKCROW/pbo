@@ -35,7 +35,7 @@ public class Deret_Ali {
     sn = (n/2)*(a + un);
     rata = sn/n;
         
-    for(i=nilai_awal; i<=jumlah_deret*beda; i=i+beda){
+    for(i=nilai_awal; i<=un; i=i+beda){
         System.out.print(i + " ");
     }
     System.out.println();
