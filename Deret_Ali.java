@@ -25,11 +25,6 @@ public class Deret_Ali {
     System.out.print("Masukkan jumlah deret : ");
     jumlah_deret = scan.nextInt();
     
-    
-    for(i=nilai_awal; i<=jumlah_deret*beda; i=i+beda){
-        System.out.print(i + " ");
-    }
-    System.out.println();
     float a, b, n;
     a = nilai_awal;
     b = beda;
@@ -39,6 +34,11 @@ public class Deret_Ali {
     un = a + (n-1)*b;
     sn = (n/2)*(a + un);
     rata = sn/n;
+        
+    for(i=nilai_awal; i<=jumlah_deret*beda; i=i+beda){
+        System.out.print(i + " ");
+    }
+    System.out.println();
     
     System.out.print("Rata-rata = ");
     System.out.printf("%.2f" ,rata);
